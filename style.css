@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.space {
+    font-size: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border: 2px solid black;
+}
+
+@media (min-width: 800px){
+    body {
+        background-color: rgb(24, 167, 172);
+
+    }
+}
+@media (max-width: 1200px){
+    body {
+        background-color: rgb(46, 161, 94);
+
+    }
+}
